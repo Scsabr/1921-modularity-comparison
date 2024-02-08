@@ -10,6 +10,6 @@ Pop your comments on Vevox.
 
 ## Makefile + unittestexample.c
 
-I've included a very basic example of a unit test script using vanilla 'assert()' - just testing one of the simpler functions in this program.
+I've included a very basic example of a unit test script using vanilla 'assert()' - just testing one of the simpler functions in this program. The whole program could be unit tested, but this requires quite a lot of set up mainly because it handles more complicated files.
 
-If you run 'make' you should be able to run ./test and see this yourself.
+You can also see a makefile with 2 different sets of rules - this allows me to compile either my executable or my test script (or both at the same time).
