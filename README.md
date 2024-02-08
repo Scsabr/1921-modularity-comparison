@@ -7,3 +7,9 @@ This was to do with some image file handling and compression - I've included a s
 Have a go at tracing the program execution through - and review the code as you do!
 
 Pop your comments on Vevox.
+
+## Makefile + unittestexample.c
+
+I've included a very basic example of a unit test script using vanilla 'assert()' - just testing one of the simpler functions in this program.
+
+If you run 'make' you should be able to run ./test and see this yourself.
